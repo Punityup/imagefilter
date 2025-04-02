@@ -124,7 +124,7 @@ function LandingPage() {
                                 </div>
 
                                 <div className={styles.uploadInfo}>
-                                    <p>Drop an image or paste a URL let's make some magic happen! ✨ Just keep it cool and within limits.</p>
+                                    <p>Drop an image or paste a URL let&apos; make some magic happen! ✨ Just keep it cool and within limits.</p>
                                 </div>
                             </div>
 
