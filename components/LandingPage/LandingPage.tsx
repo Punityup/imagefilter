@@ -251,7 +251,7 @@ function LandingPage() {
                             </div>
 
                             <div className={styles.landingImg}>
-                                <img src='/landingimg.png' alt='landingimg' />
+                                <img src='/landing.png' alt='landingimg' />
                             </div>
                         </div>}
 
