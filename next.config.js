@@ -4,13 +4,13 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.coworking.wibes.co.in' }],
-        destination: 'https://coworking.wibes.co.in/:path*',
-        permanent: true
-      }
-    ]
+        source: "/:path*",
+        has: [{ type: "host", value: "www.coworking.wibes.co.in" }],
+        destination: "https://coworking.wibes.co.in/:path*",
+        permanent: true,
+      },
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -300,6 +300,22 @@
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+    border: 4.875px solid transparent;
+    transition: all 0.1s ease;
+  }
+}
+
+.themeImg:hover {
+  img {
+    border: 4.875px solid #90119b;
+    scale: 1.05;
+  }
+}
+
+.selectedTheme {
+  img {
+    border: 4.875px solid #90119b;
+    scale: 1.05;
   }
 }
 
